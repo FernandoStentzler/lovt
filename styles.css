@@ -1,0 +1,305 @@
+html{
+    height: 100%;
+}
+
+main{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+} */
+
+.menu{
+    width: 100%;
+    height: 100%;
+    box-shadow:0px 1px 10px black;;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lovtlove{
+    display: flex;
+    position: relative;
+    left: 45px;
+}
+
+.lovt{
+    color: #777777;
+    size: 30px;
+}
+
+.love{
+    margin-top: 20px;
+    color: #AAAAAA;
+}
+
+.vector{
+    width: 18px;
+    height: 12px;
+    padding: 35px;
+    /* margin:auto; */
+}
+
+
+
+
+
+.carrosel{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 259px;
+    align-items: center;
+    background-image: url(imagens/Rectangle\ 3.png);
+    background-size: 100% 100%;    
+}
+
+.vector1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 12px;
+    border-radius: 30px;
+    background-color:#8D8D8D9E;
+    width: 39px;
+    height: 39px;
+}
+
+.vector2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 12px;    
+    border-radius: 30px;
+    background-color:#8D8D8D9E;
+    width: 39px;
+    height: 39px;
+}
+
+.vectorimg{
+    align-items: center;
+    width: 10px;
+    height: 18px;
+}
+
+.casas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-right: 0px;
+    width: 95%;
+}
+
+.casa1{
+    width: 256px;
+    height: 242px;
+    background-color: #EEEEEE;
+    /* background-image: url(imagens/Rectangle\ 6.png);
+    background-repeat: no-repeat; */
+    display: flexbox;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preço{
+    color:#888888;
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+}
+
+.new{
+    border-radius: 15px;
+    background-color:#51D275;
+    Width: 56px;
+    Height: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    right: 9px;
+}
+
+.textocasa1{
+    position: relative;
+    bottom: 45px;
+    left: 12px;
+    width: 231px;
+    height: 44px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+}
+
+.casa2{
+    width: 256px;
+    height: 242px;
+    background-color: #EEEEEE;
+    /* background-image: url(imagens/Rectangle\ 6.png);
+    background-repeat: no-repeat; */
+    display: flexbox;
+    justify-content: center;
+}
+
+.preço2{
+    color:#888888;
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+}
+
+.sale{
+    border-radius: 15px;
+    background-color:#DC9730;
+    Width: 56px;
+    Height: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    right: 9px;
+
+}
+
+.textocasa2{
+    position: relative;
+    bottom: 45px;
+    left: 12px;
+    width: 231px;
+    height: 44px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+}
+
+.estilo{
+    background-color: white;
+    color:#888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    height: 80px;
+    margin-bottom: 13px;
+}
+
+.industrial{
+    background: url(imagens/Rectangle\ 111.png);
+    background-size: 100% 100%;
+    width: 95%;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moderno{
+    background: url(imagens/Rectangle\ 122.png);
+    background-size: 100% 100%;
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classico{
+    background: url(imagens/Rectangle\ 133.png);
+    background-size: 100% 100%;
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoestilo{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    position: absolute;
+    z-index: 10;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 243px; 
+    background-color: #333333;
+    
+}
+
+.mapa{
+    display: flex;
+    margin-left: 48px;
+}
+
+.informaçoes{
+    display: block;
+}
+
+
+.endereço{
+    color: white;
+    width: 100%;
+    margin-right: 45px;
+}
+
+.media{
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 150px
+}
+
+.text{
+    display: block;
+    /* width: 100px; */
+}
+
