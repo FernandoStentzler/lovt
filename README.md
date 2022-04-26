@@ -1,4 +1,4 @@
-# lovt No começo parecia tudo muito dificil
+# No começo parecia tudo muito dificil
 ![Lovt Começo](https://user-images.githubusercontent.com/21298246/165323305-9d789fea-6952-41d3-906e-627dd4eaa4b4.JPG)
 <br>
 # Então os codigos começaram a se encaixar
